@@ -3,7 +3,7 @@ import interfaces.Acciones;
 public class Camion extends Vehiculo implements Acciones{
     private int pesoMaximo;
 
-    public Camion(int pesoMaximo, String modelo, int anioFabricacion) {
+    public Camion(int pesoMaximo, String nombre, String modelo, int anioFabricacion) {
         super(nombre, modelo, anioFabricacion);
         this.pesoMaximo = pesoMaximo;
     }
