@@ -12,15 +12,14 @@ public class Proyectovehiculo {
         Avion a1 = new Avion(25,"avion2","txz23",2005);
         Vehiculo v1 = new Vehiculo("hyundai rols","S402",06/07/2021);
               
-        ArrayList<Vehiculo> clases = new ArrayList<Vehiculo>();
-        clases.add(m1);
-        clases.add(c1);
-        clases.add(a1);
-        clases.add(v1);
+        ArrayList<Vehiculo> objetos = new ArrayList<>();
+        objetos.add(m1);
+        objetos.add(c1);
+        objetos.add(a1);
+        objetos.add(v1);
         
-        for(int i = 0; i < clases.size(); i++){
-            clases.get(i).getNombre();
-            
+        for (int i = 0; i < objetos.size(); i++) {
+            objetos.get(i).getNombre();
         }
          
         
